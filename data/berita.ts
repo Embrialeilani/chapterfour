@@ -1,4 +1,3 @@
-// data/berita.ts
 export interface Berita {
   id: number;
   title: string;

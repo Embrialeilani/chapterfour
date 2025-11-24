@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Calendar, User, Clock, ArrowLeft, Share2 } from 'lucide-react'
 import { beritaData } from '../../../data/berita'
 
+
 interface PageProps {
   params: {
     id: string
@@ -148,7 +149,7 @@ export default function DetailBeritaPage({ params }: PageProps) {
                       <Calendar size={12} className="mr-1" />
                       {relatedNews.date}
                     </div>
-                  </Link> 
+                  </Link>
                 ))}
               </div>
             </section>
